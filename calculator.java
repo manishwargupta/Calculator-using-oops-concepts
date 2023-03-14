@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //importing Scanner class from util package
 public class calculator {
     public static void main(String[] args) {
 
@@ -8,11 +8,15 @@ public class calculator {
         
         System.out.println("\n--// Enter the values for the Operation //--");
 
+        // User input the reuired values for the operation
+        
         System.out.print("\nEnter the First value :- ");
         float a = sc.nextInt();
         System.out.print("\nEnter the Second value :- ");
         float b = sc.nextInt();
 
+         // user has to input the choice of operation
+        
         System.out.println("\n(1). Addition  \n(2). Substraction \n(3). Multiplication \n(4). Division ");
         
         System.out.print("\nEnter the s.no you want to use : ");
